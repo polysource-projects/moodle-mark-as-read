@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "EdStem Unread Checker",
+    "version": "1.0",
+    "description": "Marque les threads non lus comme lus.",
+    "permissions": ["storage", "activeTab", "webRequest", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "host_permissions": ["https://edstem.org/*"]
+}
